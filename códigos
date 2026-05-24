@@ -1,0 +1,11 @@
+1= print ("Hello World!")
+
+2= A= int(input())
+B= int(input())
+X= A+B
+print("X =",X)
+
+3= raio = float(input())
+n = 3.14159
+A = n * raio ** 2
+print(f"A={A:.4f}")
