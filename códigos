@@ -9,3 +9,130 @@ print("X =",X)
 n = 3.14159
 A = n * raio ** 2
 print(f"A={A:.4f}")
+
+4=A = int(input())
+B = int(input())
+SOMA = A + B
+print("SOMA =", SOMA)
+
+5=A=int(input())
+B=int(input())
+PROD=A*B
+print("PROD =", PROD)
+
+6=NotaA = float(input())
+NotaB = float(input())
+Media = (NotaA * 3.5 + NotaB * 7.5) / 11
+print(f"MEDIA = {Media:.5f}")
+
+7=NotaA = float(input())
+NotaB = float(input())
+NotaC = float(input())
+Media = (NotaA * 2 + NotaB * 3 + NotaC * 5) / 10
+print(f"MEDIA = {Media:.1f}")
+
+8=A = int(input())
+B = int(input())
+C = int(input())
+D = int(input())
+diferença = (A * B - C * D)
+print("DIFERENCA =", diferença)
+
+9= num = int(input())
+horas = int(input())
+valor = float(input())
+
+salario = horas * valor
+
+print(f"NUMBER = {num}")
+print(f"SALARY = U$ {salario:.2f}")
+
+10=nome = input()
+salario = float(input())
+vendas = float(input())
+
+total = salario + vendas * 0.15
+
+print(f"TOTAL = R$ {total:.2f}")
+
+11=cod1, qtd1, val1 = input().split()
+cod2, qtd2, val2 = input().split()
+
+total = int(qtd1) * float(val1) + int(qtd2) * float(val2)
+
+print(f"VALOR A PAGAR: R$ {total:.2f}")
+
+12=r = float(input())
+pi = 3.14159
+
+volume = (4/3.0) * pi * r**3
+
+print(f"VOLUME = {volume:.3f}")
+
+13=a, b, c = map(float, input().split())
+pi = 3.14159
+
+tri = (a * c) / 2
+circ = pi * c**2
+trap = ((a + b) * c) / 2
+quad = b**2
+ret = a * b
+
+print(f"TRIANGULO: {tri:.3f}")
+print(f"CIRCULO: {circ:.3f}")
+print(f"TRAPEZIO: {trap:.3f}")
+print(f"QUADRADO: {quad:.3f}")
+print(f"RETANGULO: {ret:.3f}")
+
+14=a, b, c = map(int, input().split())
+
+maior_ab = (a + b + abs(a - b)) / 2
+maior = (maior_ab + c + abs(maior_ab - c)) / 2
+
+print(f"{int(maior)} eh o maior")
+
+15=x = int(input())
+y = float(input())
+
+consumo = x / y
+
+print(f"{consumo:.3f} km/l")
+
+16=x1, y1 = map(float, input().split())
+x2, y2 = map(float, input().split())
+
+distancia = ((x2 - x1)**2 + (y2 - y1)**2) ** 0.5
+
+print(f"{distancia:.4f}")
+
+17=d = int(input())
+
+tempo = d * 2
+
+print(f"{tempo} minutos")
+
+18=t = int(input())
+v = int(input())
+
+distancia = t * v
+litros = distancia / 12
+
+print(f"{litros:.3f}")
+
+19=n = int(input())
+
+print(n)
+
+for nota in [100, 50, 20, 10, 5, 2, 1]:
+    qtd = n // nota
+    n %= nota
+    print(f"{qtd} nota(s) de R$ {nota},00")
+
+20=n = int(input())
+
+horas = n // 3600
+n %= 3600
+minutos = n // 60
+segundos = n % 60
+
+print(f"{horas}:{minutos}:{segundos}")
